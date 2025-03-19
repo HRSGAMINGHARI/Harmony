@@ -1,15 +1,15 @@
 const { Colors } = require("discord.js");
 
 const defaultSettings = {
-  TOKEN: process.env.TOKEN || "BOT_TOKEN",
-  PREFIX: process.env.PREFIX || "BOT_PREFIX",
+  TOKEN: process.env.TOKEN || "MTM0NzY0ODUwNzIzMzcwMTk3Mg.GCLtgT.feml9_FIu2e5o6rP4PGViCQOPeujCcRbzguarc",
+  PREFIX: process.env.PREFIX || "%",
   MONGO_URL: process.env.MONGO_URL || "MONGO_URL",
 };
 
 const embedSettings = {
   color: Colors.Blurple,
   wrongcolor: Colors.Red,
-  footertext: "By Kabir Jaipal | Fire Bird",
+  footertext: "By HRSGAMINGHARI",
 };
 
 const emojiSettings = {
@@ -84,9 +84,9 @@ const filters = {
 
 const links = {
   inviteURL: `https://discord.com/api/oauth2/authorize?client_id=BOTID&permissions=6508997968&scope=bot%20applications.commands`,
-  DiscordServer: `https://discord.gg/FuKfAREn9f`,
-  VoteURL: `https://discord.gg/FuKfAREn9f`,
-  Website: `https://jugnu.netlify.app/`,
+  DiscordServer: `https://discord.gg/rHmCXMYXfP`,
+  VoteURL: `https://discord.gg/rHmCXMYXfP`,
+  Website: `https://discord.gg/rHmCXMYXfP`,
 };
 
 const options = {
@@ -111,8 +111,8 @@ const numberEmojis = [
 ];
 
 const slashSettings = {
-  global: false,
-  guildIDS: ["903532162236694539"], // for slash command
+  global: true,
+  guildIDS: [""], // for slash command
 };
 
 module.exports = {
